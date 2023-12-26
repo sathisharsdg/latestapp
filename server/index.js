@@ -8,7 +8,7 @@ dotenv.config();
 
 mongoose.connect(process.env.DB_URL)
 .then((r)=>{
-   console.log("DB Connected");
+   console.log("DB Connected Correctly");
 })
 .catch((err)=>{
    console.log(err + " " + "error came");
